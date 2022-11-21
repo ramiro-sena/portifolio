@@ -22,10 +22,11 @@
 }
 
 .home-title{
-    size: 96px;
+    font-size: 4rem;
     color: aliceblue;
 }
 
 .home-subtitle{
+    font-size: 3rem;
     color: aliceblue;
 }
