@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+
+.background {
+    background-image: url("./geometry-cyberspace-digital-lines-5k-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
