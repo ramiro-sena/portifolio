@@ -4,12 +4,13 @@
 }
 
 .background {
-    background-image: url("./geometry-cyberspace-digital-lines-5k-1920x1080.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: radial-gradient(rgb(58, 53, 53), rgb(26, 6, 6));
     height: 100vh;
-    width: 100vw;
+    background-image: radial-gradient(
+        farthest-corner at 30vw 30vh,
+        rgb(58, 53, 53),
+        rgb(26, 6, 6)
+      );
 }
 
 .home-text{
