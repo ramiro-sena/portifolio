@@ -38,7 +38,7 @@ body {
 }
 
 #name {
-  color: #FFF7E1;
+  color: rgb(255, 247, 225);
   font-family: Viga;
   font-size: 2rem;
   margin: 0;
@@ -48,5 +48,9 @@ body {
   margin: 0;
   font-size: 1.46rem;
   font-family: Viga;
-  color: #FFF7E1;
+  color: rgb(255, 247, 225);
+}
+
+main * {
+  color: rgb(255, 247, 225);
 }
