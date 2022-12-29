@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Viga';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Viga-Regular'), url(http://themes.googleusercontent.com/static/fonts/viga/v2/uWEbYIiZ1ylKUXKtCfNBTg.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Righteous'), local('Righteous-Regular'), url(http://themes.googleusercontent.com/static/fonts/righteous/v2/w5P-SI7QJQSDqB3GziL8XaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
 .overlay {
   height: 100vh;
   opacity: 0.22;
@@ -7,7 +21,32 @@
   background-size: cover;
 }
 
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 body {
   margin: 0;
   background: rgb(8, 0, 12);
+}
+
+#name-container {
+  margin-left: 16vw;
+  margin-top: 4vh;
+}
+
+#name {
+  color: #FFF7E1;
+  font-family: Viga;
+  font-size: 2rem;
+  margin: 0;
+}
+
+#job {
+  margin: 0;
+  font-size: 1.46rem;
+  font-family: Viga;
+  color: #FFF7E1;
 }
