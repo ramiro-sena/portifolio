@@ -12,6 +12,10 @@
   src: local('Righteous'), local('Righteous-Regular'), url(http://themes.googleusercontent.com/static/fonts/righteous/v2/w5P-SI7QJQSDqB3GziL8XaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
 
+:root {
+  --left: 16vw;
+}
+
 .overlay {
   height: 100vh;
   opacity: 0.22;
@@ -33,7 +37,7 @@ body {
 }
 
 #name-container {
-  margin-left: 16vw;
+  margin-left: var(--left);
   margin-top: 4vh;
 }
 
