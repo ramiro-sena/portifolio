@@ -66,3 +66,11 @@ main {
   width: 40rem;
   margin-left: var(--left);
 }
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: plum;
+}
