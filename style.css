@@ -1,4 +1,13 @@
+.overlay {
+  height: 100vh;
+  opacity: 0.22;
+  background-image: url('./assets/dark-desk.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 body {
   margin: 0;
-  height: 100vh;
+  background: rgb(8, 0, 12);
 }
