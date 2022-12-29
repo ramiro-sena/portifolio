@@ -57,4 +57,12 @@ body {
 
 main * {
   color: rgb(255, 247, 225);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+main {
+  position: absolute;
+  top: 40vh;
+  width: 40rem;
+  margin-left: var(--left);
 }
