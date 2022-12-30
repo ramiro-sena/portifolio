@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Viga';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Viga-Regular'), url(http://themes.googleusercontent.com/static/fonts/viga/v2/uWEbYIiZ1ylKUXKtCfNBTg.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Righteous'), local('Righteous-Regular'), url(http://themes.googleusercontent.com/static/fonts/righteous/v2/w5P-SI7QJQSDqB3GziL8XaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+:root {
+  --left: 16vw;
+}
+
+.overlay {
+  height: 100vh;
+  opacity: 0.22;
+  background-image: url('./assets/dark-desk.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  width: calc(100vw - 2 * var(--left));
+  padding-left: var(--left);
+  padding-right: var(--left);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  height: 80%;
+  background: none;
+  color: white;
+  border: none;
+  padding: 2rem;
+  font-size: large;
+}
+
+.selected {
+  border-bottom: 3px solid purple;
+}
+
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body {
+  margin: 0;
+  background: rgb(8, 0, 12);
+}
+
+#name-container {
+  
+  margin-top: 3vh;
+}
+
+#name {
+  color: rgb(255, 247, 225);
+  font-family: Viga;
+  font-size: 2rem;
+  margin: 0;
+}
+
+#job {
+  margin: 0;
+  font-size: 1.46rem;
+  font-family: Viga;
+  color: rgb(255, 247, 225);
+}
+
+main * {
+  color: rgb(255, 247, 225);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+main {
+  position: absolute;
+  top: 30vh;
+  width: calc(100vw - 2 * var(--left));
+  padding-left: var(--left);
+  padding-right: var(--left);
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: plum;
+}
+
+#btn-container * {
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  color: rgb(255, 247, 225);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  /* font-weight: 500; */
+  padding: .8rem;
+  padding-left: 1.2rem;
+  padding-right: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: .43rem;
+  border: none;
+  background-color: blueviolet;
+}
+
+#recruter {
+  background-color: rgba(118, 105, 121, 0.384);
+}
+
+button:hover {
+  background-color: rgb(68, 26, 65) !important;
+}
+
+
+
+#title {
+  font-size: 4.5rem;
+}
+
+#description {
+  font-size: x-large;
+}
