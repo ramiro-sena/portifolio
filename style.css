@@ -62,9 +62,10 @@ main * {
 
 main {
   position: absolute;
-  top: 40vh;
-  width: 40rem;
-  margin-left: var(--left);
+  top: 30vh;
+  width: calc(100vw - 2 * var(--left));
+  padding-left: var(--left);
+  padding-right: var(--left);
 }
 
 .link {
@@ -94,4 +95,18 @@ main {
 
 #recruter {
   background-color: rgba(118, 105, 121, 0.384);
+}
+
+button:hover {
+  background-color: rgb(68, 26, 65) !important;
+}
+
+
+
+#title {
+  font-size: 4.5rem;
+}
+
+#description {
+  font-size: x-large;
 }
