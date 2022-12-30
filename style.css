@@ -25,6 +25,28 @@
   background-size: cover;
 }
 
+nav {
+  display: flex;
+  width: calc(100vw - 2 * var(--left));
+  padding-left: var(--left);
+  padding-right: var(--left);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  height: 80%;
+  background: none;
+  color: white;
+  border: none;
+  padding: 2rem;
+  font-size: large;
+}
+
+.selected {
+  border-bottom: 3px solid purple;
+}
+
 .app {
   position: absolute;
   top: 0;
@@ -37,8 +59,8 @@ body {
 }
 
 #name-container {
-  margin-left: var(--left);
-  margin-top: 4vh;
+  
+  margin-top: 3vh;
 }
 
 #name {
